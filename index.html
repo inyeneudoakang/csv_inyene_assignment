@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSV to JSON Converter</title>
+</head>
+<body>
+    <div class="container">
+        <label for="csvFileInput" class="fileLabel">Choose CSV File</label>
+        <input type="file" id="csvFileInput" accept=".csv" style="display: none;">
+        <button id="backBtn" disabled>Back</button>
+        <button id="forwardBtn" disabled>Forward</button>
+        <button id="saveToJsonBtn" disabled>Save to JSON</button>
+        <div id="recordDisplay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
